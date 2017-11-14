@@ -9,9 +9,9 @@ The process of performing linear regression follows the steps...
 
 1. Import dataset
 
-2.Explore the data using various graphs and data visualization strategies
+2. Explore the data using various graphs and data visualization strategies
 
-3.Divide data into training and testing sets
+3. Divide data into training and testing sets
 
 4. Train the model on the data
 
