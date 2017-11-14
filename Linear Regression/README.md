@@ -17,7 +17,7 @@ The process of performing linear regression follows the steps...
 
 5. Perform predictions
 
-6.Evaluate the results using common evaluation metrics  - Mean absolute error/Mean squared error/Root mean squared error
+6. Evaluate the results using common evaluation metrics  - Mean absolute error/Mean squared error/Root mean squared error
 
 
 The output can be read from the out-put file 
