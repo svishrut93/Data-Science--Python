@@ -24,3 +24,9 @@ The output can be read from the out-put file
 The visualization graphs can be viewed in the visualizations folder. 
 
 
+![alt text](https://github.com/svishrut93/Data-Science--Python/blob/master/Linear%20Regression/Visualization/pairplot.png)
+
+![alt text](https://github.com/svishrut93/Data-Science--Python/blob/master/Linear%20Regression/Visualization/distribution%20of%20prices%20on%20the%20dataset.png)
+
+
+![alt text](https://github.com/svishrut93/Data-Science--Python/blob/master/Linear%20Regression/Visualization/Predictions%20Linear%20Regtression.png)
