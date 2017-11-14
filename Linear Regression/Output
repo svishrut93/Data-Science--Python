@@ -1,0 +1,44 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 5000 entries, 0 to 4999
+Data columns (total 7 columns):
+Avg. Area Income                5000 non-null float64
+Avg. Area House Age             5000 non-null float64
+Avg. Area Number of Rooms       5000 non-null float64
+Avg. Area Number of Bedrooms    5000 non-null float64
+Area Population                 5000 non-null float64
+Price                           5000 non-null float64
+Address                         5000 non-null object
+dtypes: float64(6), object(1)
+memory usage: 273.5+ KB
+None
+       Avg. Area Income  Avg. Area House Age  Avg. Area Number of Rooms  \
+count       5000.000000          5000.000000                5000.000000   
+mean       68583.108984             5.977222                   6.987792   
+std        10657.991214             0.991456                   1.005833   
+min        17796.631190             2.644304                   3.236194   
+25%        61480.562388             5.322283                   6.299250   
+50%        68804.286404             5.970429                   7.002902   
+75%        75783.338666             6.650808                   7.665871   
+max       107701.748378             9.519088                  10.759588   
+
+       Avg. Area Number of Bedrooms  Area Population         Price  
+count                   5000.000000      5000.000000  5.000000e+03  
+mean                       3.981330     36163.516039  1.232073e+06  
+std                        1.234137      9925.650114  3.531176e+05  
+min                        2.000000       172.610686  1.593866e+04  
+25%                        3.140000     29403.928702  9.975771e+05  
+50%                        4.050000     36199.406689  1.232669e+06  
+75%                        4.490000     42861.290769  1.471210e+06  
+max                        6.500000     69621.713378  2.469066e+06  
+Index(['Avg. Area Income', 'Avg. Area House Age', 'Avg. Area Number of Rooms',
+       'Avg. Area Number of Bedrooms', 'Area Population', 'Price', 'Address'],
+      dtype='object')
+Predicted House Prices 
+[ 1310035.96931578  1238811.85458543  1245265.83079141 ...,
+  1024496.94962118  1548581.80349715  1032639.16178956]
+Mean absolute error for linear regression 
+80893.8119077
+Mean squared error for linear regression 
+10013679978.6
+Root mean squared error for linear regression 
+100068.3765161742
