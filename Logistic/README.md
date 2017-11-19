@@ -12,6 +12,23 @@ The first file : Data_cleaning_LR.py is the cleaning process done on the trainin
 
 Also refer to the data cleaning visualization folder to understand how data was interpreted and cleaning performed.
 
-This project is a work in progress. Please come back in a few days. 
+Then check file Logistic Regression.py for code of ML algorithm. 
 
+The data to predict is whether a passenger survived or not. 
 
+We get an accuracy here of 0.809 
+
+Output :
+             precision    recall  f1-score   support
+
+          0       0.79      0.92      0.85       174
+          1       0.85      0.65      0.74       120
+
+avg / total       0.81      0.81      0.80       294
+
+<class 'numpy.ndarray'>
+[[160  14]
+ [ 42  78]]
+Accuracy = 0.809523809524
+
+Process finished with exit code 0
