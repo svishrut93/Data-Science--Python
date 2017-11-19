@@ -10,6 +10,8 @@ The dataset csv files are available for download in this folder.
 
 The first file : Data_cleaning_LR.py is the cleaning process done on the training set. It contains code with detailed comments on how to clean the data so that it contains numerical values, fit for being fed into a machine learning algorithm.
 
+Also refer to the data cleaning visualization folder to understand how data was interpreted and cleaning performed.
+
 This project is a work in progress. Please come back in a few days. 
 
 
