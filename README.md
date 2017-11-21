@@ -3,4 +3,5 @@
 This repo contains various data science exercises and implementations of ML algorithms using Pandas and sci-kit learn 
 1. Linear Regression
 2. Logistic Regression
+3. K Nearest Neighbours
 
