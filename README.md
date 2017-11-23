@@ -4,4 +4,5 @@ This repo contains various data science exercises and implementations of ML algo
 1. Linear Regression
 2. Logistic Regression
 3. K Nearest Neighbours
+4. Random Forests
 
