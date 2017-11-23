@@ -32,3 +32,18 @@ avg / total       0.81      0.81      0.80       294
 Accuracy = 0.809523809524
 
 Process finished with exit code 0
+
+
+
+Visualizations : 
+1.Class vs age
+
+![alt text](https://github.com/svishrut93/Data-Science--Python/blob/master/Logistic/Data%20cleaning%20visualization/class%20vs%20age.png)
+
+
+![alt text](https://github.com/svishrut93/Data-Science--Python/blob/master/Logistic/Data%20cleaning%20visualization/Age_of_people_on_titanic.png)
+
+
+
+
+
