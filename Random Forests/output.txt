@@ -1,0 +1,342 @@
+C:\Users\Vishrut\Anaconda3\python.exe "C:/Users/Vishrut/PycharmProjects/Python machine learning/Machine Learning A-Z Template Folder/Part 10 - Model Selection & Boosting/Numpy/Decision trees abd random forests/RF.py"
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 81 entries, 0 to 80
+Data columns (total 4 columns):
+Kyphosis    81 non-null object
+Age         81 non-null int64
+Number      81 non-null int64
+Start       81 non-null int64
+dtypes: int64(3), object(1)
+memory usage: 2.6+ KB
+absent     64
+present    17
+Name: Kyphosis, dtype: int64
+    Kyphosis    Age  Number  Start
+0      False  False   False  False
+1      False  False   False  False
+2      False  False   False  False
+3      False  False   False  False
+4      False  False   False  False
+5      False  False   False  False
+6      False  False   False  False
+7      False  False   False  False
+8      False  False   False  False
+9      False  False   False  False
+10     False  False   False  False
+11     False  False   False  False
+12     False  False   False  False
+13     False  False   False  False
+14     False  False   False  False
+15     False  False   False  False
+16     False  False   False  False
+17     False  False   False  False
+18     False  False   False  False
+19     False  False   False  False
+20     False  False   False  False
+21     False  False   False  False
+22     False  False   False  False
+23     False  False   False  False
+24     False  False   False  False
+25     False  False   False  False
+26     False  False   False  False
+27     False  False   False  False
+28     False  False   False  False
+29     False  False   False  False
+..       ...    ...     ...    ...
+51     False  False   False  False
+52     False  False   False  False
+53     False  False   False  False
+54     False  False   False  False
+55     False  False   False  False
+56     False  False   False  False
+57     False  False   False  False
+58     False  False   False  False
+59     False  False   False  False
+60     False  False   False  False
+61     False  False   False  False
+62     False  False   False  False
+63     False  False   False  False
+64     False  False   False  False
+65     False  False   False  False
+66     False  False   False  False
+67     False  False   False  False
+68     False  False   False  False
+69     False  False   False  False
+70     False  False   False  False
+71     False  False   False  False
+72     False  False   False  False
+73     False  False   False  False
+74     False  False   False  False
+75     False  False   False  False
+76     False  False   False  False
+77     False  False   False  False
+78     False  False   False  False
+79     False  False   False  False
+80     False  False   False  False
+
+[81 rows x 4 columns]
+<class 'pandas.core.frame.DataFrame'>
+scaled Features 
+           0         1         2
+0  -0.219143 -0.652035 -1.337907
+1   1.287494 -0.652035  0.516341
+2   0.767964 -0.030684 -1.337907
+3  -1.414063  0.590667 -2.162017
+4  -1.431381 -0.030684  0.722368
+5  -1.431381 -1.273387  0.928396
+6  -0.392320 -1.273387  1.134423
+7  -0.807944 -0.652035  0.928396
+8   0.508199 -1.273387  0.928396
+9  -0.426956  1.212019  0.104286
+10 -0.028649  0.590667  0.516341
+11  1.114318 -0.652035  0.928396
+12 -1.136980  0.590667 -1.955990
+13 -1.431381 -0.030684  0.104286
+14  1.460671 -0.652035  1.340451
+15 -1.431381 -0.652035  0.928396
+16 -0.097920  1.212019  0.722368
+17  1.581895  0.590667  0.310313
+18 -0.063284  0.590667  0.928396
+19 -0.981121 -0.030684 -0.513797
+20 -1.067710 -1.273387  0.928396
+21  0.369658  1.212019 -1.337907
+22  0.213798 -0.652035  0.104286
+23  0.819917 -1.273387 -1.749962
+24 -1.188933  1.833370 -1.955990
+25 -1.292839  0.590667  0.310313
+26 -1.310157 -0.652035 -1.131880
+27  0.283069 -0.652035  0.516341
+28 -1.379428 -0.652035  0.928396
+29  1.166271 -1.273387  0.928396
+..       ...       ...       ...
+51 -1.292839 -1.273387  1.134423
+52  0.958459  3.697424 -1.131880
+53 -1.414063 -1.273387  1.134423
+54  0.975776 -0.030684  0.722368
+55 -0.201826  0.590667  0.722368
+56 -1.414063 -0.652035  0.310313
+57  0.629423  0.590667 -0.719825
+58 -0.565497  1.833370 -0.513797
+59  0.317705 -0.652035  0.310313
+60  0.802599 -0.030684 -2.162017
+61  0.525517  1.833370 -0.719825
+62 -0.045967 -0.030684 -2.162017
+63  0.594787 -0.652035  0.928396
+64  0.594787 -0.030684  0.928396
+65 -1.154298 -0.030684 -0.307769
+66  1.928248 -1.273387  1.134423
+67  1.304812 -0.030684  0.310313
+68 -1.136980 -0.030684 -0.101742
+69 -1.188933  0.590667  0.928396
+70  1.287494  0.590667  0.516341
+71  0.750646 -0.030684  0.104286
+72  0.057939 -0.030684  0.928396
+73  2.118743 -0.030684 -0.307769
+74 -1.258204 -0.652035  0.722368
+75  1.633848 -0.030684  0.722368
+76  1.270177 -0.652035  0.310313
+77 -0.998439  1.833370  0.310313
+78  0.629423 -1.273387  0.310313
+79 -0.721356  1.833370 -1.131880
+80 -0.825262 -0.030684  0.310313
+
+[81 rows x 3 columns]
+   Kyphosis         0         1         2
+0    absent -0.219143 -0.652035 -1.337907
+1    absent  1.287494 -0.652035  0.516341
+2   present  0.767964 -0.030684 -1.337907
+3    absent -1.414063  0.590667 -2.162017
+4    absent -1.431381 -0.030684  0.722368
+5    absent -1.431381 -1.273387  0.928396
+6    absent -0.392320 -1.273387  1.134423
+7    absent -0.807944 -0.652035  0.928396
+8    absent  0.508199 -1.273387  0.928396
+9   present -0.426956  1.212019  0.104286
+10  present -0.028649  0.590667  0.516341
+11   absent  1.114318 -0.652035  0.928396
+12   absent -1.136980  0.590667 -1.955990
+13   absent -1.431381 -0.030684  0.104286
+14   absent  1.460671 -0.652035  1.340451
+15   absent -1.431381 -0.652035  0.928396
+16   absent -0.097920  1.212019  0.722368
+17   absent  1.581895  0.590667  0.310313
+18   absent -0.063284  0.590667  0.928396
+19   absent -0.981121 -0.030684 -0.513797
+20   absent -1.067710 -1.273387  0.928396
+21  present  0.369658  1.212019 -1.337907
+22  present  0.213798 -0.652035  0.104286
+23   absent  0.819917 -1.273387 -1.749962
+24  present -1.188933  1.833370 -1.955990
+25   absent -1.292839  0.590667  0.310313
+26   absent -1.310157 -0.652035 -1.131880
+27   absent  0.283069 -0.652035  0.516341
+28   absent -1.379428 -0.652035  0.928396
+29   absent  1.166271 -1.273387  0.928396
+..      ...       ...       ...       ...
+51   absent -1.292839 -1.273387  1.134423
+52  present  0.958459  3.697424 -1.131880
+53   absent -1.414063 -1.273387  1.134423
+54   absent  0.975776 -0.030684  0.722368
+55   absent -0.201826  0.590667  0.722368
+56   absent -1.414063 -0.652035  0.310313
+57  present  0.629423  0.590667 -0.719825
+58   absent -0.565497  1.833370 -0.513797
+59   absent  0.317705 -0.652035  0.310313
+60  present  0.802599 -0.030684 -2.162017
+61  present  0.525517  1.833370 -0.719825
+62   absent -0.045967 -0.030684 -2.162017
+63   absent  0.594787 -0.652035  0.928396
+64   absent  0.594787 -0.030684  0.928396
+65   absent -1.154298 -0.030684 -0.307769
+66   absent  1.928248 -1.273387  1.134423
+67   absent  1.304812 -0.030684  0.310313
+68   absent -1.136980 -0.030684 -0.101742
+69   absent -1.188933  0.590667  0.928396
+70   absent  1.287494  0.590667  0.516341
+71   absent  0.750646 -0.030684  0.104286
+72   absent  0.057939 -0.030684  0.928396
+73   absent  2.118743 -0.030684 -0.307769
+74   absent -1.258204 -0.652035  0.722368
+75   absent  1.633848 -0.030684  0.722368
+76  present  1.270177 -0.652035  0.310313
+77   absent -0.998439  1.833370  0.310313
+78   absent  0.629423 -1.273387  0.310313
+79  present -0.721356  1.833370 -1.131880
+80   absent -0.825262 -0.030684  0.310313
+
+[81 rows x 4 columns]
+Data Frame with only present 
+   Kyphosis  Age  Number  Start
+2   present  128       4      5
+9   present   59       6     12
+10  present   82       5     14
+21  present  105       6      5
+22  present   96       3     12
+24  present   15       7      2
+37  present   52       5      6
+39  present   91       5     12
+40  present   73       5      1
+45  present  139       3     10
+48  present  121       3      3
+52  present  139      10      6
+57  present  120       5      8
+60  present  130       4      1
+61  present  114       7      8
+76  present  157       3     13
+79  present   42       7      6
+Data Frame with only absebnt
+   Kyphosis  Age  Number  Start
+0    absent   71       3      5
+1    absent  158       3     14
+3    absent    2       5      1
+4    absent    1       4     15
+5    absent    1       2     16
+6    absent   61       2     17
+7    absent   37       3     16
+8    absent  113       2     16
+11   absent  148       3     16
+12   absent   18       5      2
+13   absent    1       4     12
+14   absent  168       3     18
+15   absent    1       3     16
+16   absent   78       6     15
+17   absent  175       5     13
+18   absent   80       5     16
+19   absent   27       4      9
+20   absent   22       2     16
+23   absent  131       2      3
+25   absent    9       5     13
+26   absent    8       3      6
+27   absent  100       3     14
+28   absent    4       3     16
+29   absent  151       2     16
+30   absent   31       3     16
+31   absent  125       2     11
+32   absent  130       5     13
+33   absent  112       3     16
+34   absent  140       5     11
+35   absent   93       3     16
+..      ...  ...     ...    ...
+43   absent   61       4      1
+44   absent   97       3     16
+46   absent  136       4     15
+47   absent  131       5     13
+49   absent  177       2     14
+50   absent   68       5     10
+51   absent    9       2     17
+53   absent    2       2     17
+54   absent  140       4     15
+55   absent   72       5     15
+56   absent    2       3     13
+58   absent   51       7      9
+59   absent  102       3     13
+62   absent   81       4      1
+63   absent  118       3     16
+64   absent  118       4     16
+65   absent   17       4     10
+66   absent  195       2     17
+67   absent  159       4     13
+68   absent   18       4     11
+69   absent   15       5     16
+70   absent  158       5     14
+71   absent  127       4     12
+72   absent   87       4     16
+73   absent  206       4     10
+74   absent   11       3     15
+75   absent  178       4     15
+77   absent   26       7     13
+78   absent  120       2     13
+80   absent   36       4     13
+
+[64 rows x 4 columns]
+DECISION TREE
+Confusion matrix : 
+[[14  2]
+ [ 6  3]]
+Classification report
+             precision    recall  f1-score   support
+
+     absent       0.70      0.88      0.78        16
+    present       0.60      0.33      0.43         9
+
+avg / total       0.66      0.68      0.65        25
+
+ACCURACY 
+0.68
+ERROR RATE : 
+0.32
+RANDOM FOREST
+Confusion matrix : 
+[[16  0]
+ [ 8  1]]
+Classification report
+             precision    recall  f1-score   support
+
+     absent       0.67      1.00      0.80        16
+    present       1.00      0.11      0.20         9
+
+avg / total       0.79      0.68      0.58        25
+
+ACCURACY 
+0.68
+ERROR RATE : 
+0.32
+Confusion matrix : 
+[[16  0]
+ [ 9  0]]
+Classification report
+             precision    recall  f1-score   support
+
+     absent       0.64      1.00      0.78        16
+    present       0.00      0.00      0.00         9
+
+avg / total       0.41      0.64      0.50        25
+
+ACCURACY -KNN
+0.64
+ERROR RATE-KNN : 
+0.36
+C:\Users\Vishrut\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+
+Process finished with exit code 0
