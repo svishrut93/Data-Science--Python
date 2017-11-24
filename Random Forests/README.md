@@ -7,13 +7,14 @@ The task at hand is to predict if a person has kyphosis or not (Classification P
 
 The file used is uploaded as kyphosis.csv 
 
-
 The data is cleaned and pre-processed. The visualizations about the data along with outputs are contained inside the data visualization folder. 
 After extracting insights about the data with the help of matplotlib and seaborn, I forst used a decision tree classifier for prediction, with the below results. 
 
 <h3>Decision Tree </h3>
 
 ![alt text](https://github.com/svishrut93/Data-Science--Python/blob/master/Random%20Forests/Data%20Visualization/Results%20Decision%20Trees.PNG)
+
+The same train test split was applied to a random forest classifier.
 
 <h3>Random Forest  </h3>
 
@@ -29,6 +30,8 @@ We observe the random forest shows slightly better results than the decision tre
 
 ![alt text](https://github.com/svishrut93/Data-Science--Python/blob/master/Random%20Forests/Data%20Visualization/Distribution%20for%20kyphosis%20absent.png)
 
+
+The code for the above 2 models can be found at RF.py.
 
 
 
