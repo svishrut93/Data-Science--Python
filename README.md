@@ -6,4 +6,4 @@ This repo contains various data science exercises and implementations of ML algo
 3. K Nearest Neighbours
 4. Random Forests
 5. Support Vector Machine (SVM)
-6. Principal Components Analysis
+6. Principal Components Analysis (PCA)
