@@ -13,4 +13,6 @@ I use 12 independent variables as input into the neural network.
 
 The model gives an accuracy of 84%. 
 
+
+Code can be found in file called ANN_10.py<br>
 Outputs of the training and testing can be seen in the output file. 
