@@ -8,5 +8,7 @@ This repo contains various data science exercises and implementations of ML algo
 5. Support Vector Machine (SVM)
 6. Principal Components Analysis (PCA)
 7. Neural Network 
-    --ANN
+   --ANN
+8. Convolutional Neural Network : CNN
+
 
