@@ -1,0 +1,15 @@
+
+def text_process(mess):
+	"""
+	1. Remove punctuations from the string
+	2. Remove stopwords : nltk 
+	3. Return list of clean text words 
+
+	nopunc = [char for char in mess if char not in string.puncuation]
+
+	nopunc = ''.join (nopunc)
+
+	return [word for word in nopunc.split() if word.lower() not in stopwords.words('english')]
+
+
+--------^^ Whole process is called tokenization of strings/messages 
