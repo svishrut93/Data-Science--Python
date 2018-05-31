@@ -293,25 +293,3 @@ print(mindist)
 
 print()
 #X.mu1 ; X.mu2 ; X.mu3
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
